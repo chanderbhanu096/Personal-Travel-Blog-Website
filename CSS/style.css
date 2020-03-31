@@ -1,0 +1,95 @@
+                @import "header.css";
+            @import "boxstyling.css";
+            @import "footer.css";
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            body {
+                background-image: url("../images/grey.jpg");
+            }
+            
+            .container {
+                display: flex;
+                display: grid;
+                justify-items: auto;
+                grid-template-rows: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: "aa ab ac" "za zb zc" "xa xa xa";
+                grid-gap: 5%;
+                padding-left: 4%;
+                padding-right: 4%;
+            }
+            
+            .contact {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            @media(max-width: 900px) {
+                .container {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: minmax(300px, auto);
+                    grid-gap: 12px;
+                    grid-template-areas: "aa" "ab" "ac" "za" "zb" "zc";
+                }
+                .header {
+                    display: flex;
+                    padding: 0px;
+                    margin: 0px;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                .footer {
+                    display: flex;
+                    background-color: #444;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    padding: 20px;
+                    align-items: center;
+                    color: white;
+                    margin-top: 20px;
+                }
+            }
+            
+            @media(min-width: 900px) and (max-width: 1400px) {
+                .container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: minmax(300px, auto);
+                    grid-column-gap: 30px;
+                    grid-row-gap: 30px;
+                    grid-template-areas: "left right" "left1 right1" "left2 right2";
+                }
+            }
+            
+            @media(min-width: 1400px) {
+                .content-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: minmax(300px, auto);
+                    grid-column-gap: 40px;
+                    grid-row-gap: 40px;
+                    grid-template-areas: "left right left1" "right1 left2 right2";
+                }
+                .a {
+                    grid-area: aa;
+                }
+                .b {
+                    grid-area: ab;
+                }
+                .c {
+                    grid-area: ac;
+                }
+                .d {
+                    grid-area: za;
+                }
+                .e {
+                    grid-area: zb;
+                }
+                .f {
+                    grid-area: zc;
+                }
+                {}

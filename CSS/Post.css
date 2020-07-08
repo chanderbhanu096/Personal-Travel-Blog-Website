@@ -7,6 +7,19 @@
 body {
     background-image: url("../images/grey.jpg");
 }
+li {
+    display: inline;
+    font-size: 2rem;
+    padding-left:  1.5rem;
+    
+  }
+ul {
+    background-color: #dddddd;
+  }
+#about_last{
+    float: right;
+    padding-right:1.5rem;
+}
 
 .header-container {
     display: flex;

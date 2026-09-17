@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
+# Personal Travel Blog Website
 
-You can use the [editor on GitHub](https://github.com/chanderbhanu096/Personal-Travel-Blog-Website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A simple responsive travel blog built with **HTML and CSS** to showcase travel-themed posts, imagery, and a clean card-based layout.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+This project was created as a front-end practice project focused on structuring a multi-page website and styling it with reusable CSS. The homepage presents travel categories such as mountains, deserts, glaciers, sea, forest, and Iceland, with links to a dedicated post page.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+- Multi-page static website
+- Travel post cards with images and short descriptions
+- Navigation between Home, Post, and About sections
+- Responsive page structure
+- Custom styling with CSS
+- Social-media icons in the footer
 
-# Header 1
-## Header 2
-### Header 3
+## Tech Stack
 
-- Bulleted
-- List
+- **HTML5**
+- **CSS3**
+- **GitHub Pages / static hosting compatible**
 
-1. Numbered
-2. List
+## Project Structure
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```text
+Personal-Travel-Blog-Website/
+├── index.html
+├── Post.html
+├── CSS/
+├── images/
+├── _config.yml
+└── README.md
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Run Locally
 
-### Jekyll Themes
+No build step is required.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chanderbhanu096/Personal-Travel-Blog-Website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. Clone the repository:
 
-### Support or Contact
+```bash
+git clone https://github.com/chanderbhanu096/Personal-Travel-Blog-Website.git
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2. Open the project folder.
+3. Open `index.html` in your browser.
+
+For a better local-development experience, you can also serve the folder with a lightweight local server such as VS Code Live Server.
+
+## What I Practiced
+
+- Semantic HTML page structure
+- Reusable layout and styling patterns
+- Working with local assets and images
+- Navigation across multiple static pages
+- Organizing a small front-end project
+
+## Possible Improvements
+
+- Improve mobile responsiveness
+- Add real travel articles and destination data
+- Add working social links
+- Improve accessibility and semantic markup
+- Add JavaScript for filtering or dynamic content
+- Modernize the UI and typography
+
+## Author
+
+**Chander Bhanu**
+
+This repository is part of my collection of web-development and portfolio projects.
